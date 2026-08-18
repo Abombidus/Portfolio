@@ -1,0 +1,50 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  /* width: max-content; */
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  /* position: relative; */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.8rem;
+  top: 32rem;
+  border-radius: 3rem;
+  position: fixed;
+}
+
+nav a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.6rem;
+}
+
+/* nav a:hover {
+  background: rgba(0, 0, 0, 0.1);
+} */
+
+.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  transition: var(--transition);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* ===== MEDIA QUERIES (Medium Devices) ===== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ===== MEDIA QUERIES (Small Devices) ===== */
+@media screen and (max-width: 600px) {
+  nav {
+    /* display: inline-block; */
+    top: 87%;
+    /* width: 50%; */
+  }
+}
