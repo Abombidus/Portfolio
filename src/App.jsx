@@ -7,12 +7,12 @@ import NavBar from "./components/nav-bar/NavBar";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
     <>
-    <Analytics/>
+      <Analytics />
       <Header />
       <NavBar />
       <About />
