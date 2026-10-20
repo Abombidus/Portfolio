@@ -9,6 +9,7 @@ const Footer = () => {
       <a href="#" className="footer-logo">
         Abombidus
       </a>
+
       <ul className="permaLinks">
         <li>
           <a href="#">Home</a>

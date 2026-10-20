@@ -1,9 +1,7 @@
-import { MdOutlineEmail } from "react-icons/md";
 import "./contact.css";
-import { FaFacebook } from "react-icons/fa";
-import { BsWhatsapp } from "react-icons/bs";
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import emailjs from "emailjs-com";
+import { AppContext } from "../../context/AppContext";
 
 const Contact = () => {
   const form = useRef();
@@ -26,29 +24,8 @@ const Contact = () => {
     e.target.reset();
   };
 
-  const table = [
-    {
-      id: 0,
-      logo: <MdOutlineEmail className="contact-option-icon" />,
-      title: "Email",
-      detail: "abombidus@gmail.com",
-      link: "mailto:abombidus@gmail.com",
-    },
-    {
-      id: 1,
-      logo: <FaFacebook className="contact-option-icon" />,
-      title: "Facebook",
-      detail: "abombidusPortfolio",
-      link: "https://facebook.com/Mario.Abo.2025",
-    },
-    {
-      id: 2,
-      logo: <BsWhatsapp className="contact-option-icon" />,
-      title: "WhatsApp",
-      detail: "+123456789",
-      link: "https://wa.me/237695833316",
-    },
-  ];
+  const { table } = useContext(AppContext);
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -69,6 +46,7 @@ const Contact = () => {
             );
           })}
         </div>
+
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"

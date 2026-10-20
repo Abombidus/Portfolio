@@ -1,27 +1,11 @@
+import { useContext } from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { AppContext } from "../../context/AppContext";
 
 const Experience = () => {
-  const frontEndTable = [
-    // { id: 0, language: "HTML", experience: "Experience" },
-    { id: 0, language: "Flutter", experience: "Experience" },
-    { id: 1, language: "JavaScript", experience: "Experienced" },
-    // { id: 3, language: "CSS", experience: "Experienced" },
-    { id: 3, language: "React Native", experience: "Experienced" },
-    { id: 4, language: "Tailwind", experience: "Intermediate" },
-    // { id: 5, language: "Bootstrap", experience: "Experienced" },
-    { id: 5, language: "Material UI", experience: "Experienced" },
-    { id: 6, language: "Angular", experience: "Experienced" },
-  ];
-
-  const backEndTable = [
-    { id: 0, language: "Node Js", experience: "Experience" },
-    { id: 1, language: "Express Js", experience: "Experienced" },
-    { id: 3, language: "Nest Js", experience: "Experienced" },
-    { id: 4, language: "SpringBoot", experience: "Beginner" },
-    { id: 5, language: "Django", experience: "Intermediate" },
-    { id: 6, language: "PostgreSQL", experience: "Intermediate" },
-  ];
+  const { frontEndTable } = useContext(AppContext);
+  const { backEndTable } = useContext(AppContext);
 
   return (
     <section id="experience">
@@ -49,7 +33,6 @@ const Experience = () => {
         </div>
 
         {/* BACKEND TECHNOLOGY  */}
-
         <div className="experience-backend">
           <h3>Backend Development</h3>
           <div className="experience-content">
