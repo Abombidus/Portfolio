@@ -4,7 +4,7 @@ import { BiCheck } from "react-icons/bi";
 import { AppContext } from "../../context/AppContext";
 
 const Services = () => {
-  const serviceList = useContext(AppContext);
+  const { serviceList } = useContext(AppContext);
 
   return (
     <section id="services">
