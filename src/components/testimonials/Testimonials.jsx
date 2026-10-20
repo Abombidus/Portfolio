@@ -4,6 +4,7 @@ import Avatar01 from "../../assets/Images/Avatar01.AVIF";
 import Avatar02 from "../../assets/Images/Avatar02.AVIF";
 import Avatar03 from "../../assets/Images/Avatar03.JPG";
 import Book from "../../assets/Book.WEBP";
+
 import Girl00 from "../../assets/Images/Girl00.JPG";
 import Girl01 from "../../assets/Images/Girl01.JPG";
 

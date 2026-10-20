@@ -1,50 +1,56 @@
 import "./portfolio.css";
+import EcommerceL from "../../assets/EcommerceL.jpeg";
+import Light from "../../assets/Light.jpeg";
+import Resto from "../../assets/Resto.jpeg";
+import NoteApp from "../../assets/NoteApp.jpeg";
+import WaClone from "../../assets/WaClone.jpeg";
 import A from "../../assets/A.JPG";
-import Business from "../../assets/Business.JPG";
-import Eleve from "../../assets/Eleve.JPG";
-import Avatar00 from "../../assets/Images/Avatar00.AVIF";
-import Avatar04 from "../../assets/Images/Avatar04.JPG";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: A,
+      // image: A,
+      image: Resto,
       title: " React Restaurant Application",
       github: "https://github.com/abombidus/resto-App.git",
       dribbble: "https://dribbble.com/Alien_pixel",
     },
     {
       id: 2,
-      image: Business,
+      // image: Business,
+      image: Light,
       title: "Energie Management System",
       github: "https://github.com/abombidus/Mama_fanta-.git",
       dribbble: "https://dribbble.com/shots/16673715-Crypto",
     },
     {
       id: 3,
-      image: Avatar00,
+      image: A,
       title: "Durable Impact Portfolio",
       github: "https://github.com/Abombidus/durable-impact-portfolio.git",
       dribbble: "https://dribbble.com/shots/16673715-Crypto",
     },
     {
       id: 4,
-      image: Eleve,
+      // image: Eleve,
+      image: NoteApp,
       title: "React Note Application",
       github: "https://github.com/Abombidus/noteApp.git",
       dribbble: "https://dribbble.com/shots/16673715-Crypto",
     },
     {
       id: 5,
-      image: Avatar04,
+      // image: Avatar04,
+      image: EcommerceL,
       title: "E-commerce Application Logic",
       github: "https://github.com/Abombidus/ecommerce_js_fundamentals.git",
       dribbble: "https://dribbble.com/shots/16673715-Crypto",
     },
     {
       id: 6,
-      image: A,
+      // image: A,
+      image: WaClone,
       title: "WhatsApp Clone Application",
       github: "https://github.com/Abombidus/Whatsap.git",
       dribbble: "https://dribbble.com/shots/16673715-Crypto",
