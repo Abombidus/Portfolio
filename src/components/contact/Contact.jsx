@@ -1,6 +1,6 @@
 import { MdOutlineEmail } from "react-icons/md";
 import "./contact.css";
-import { RiMessengerLine } from "react-icons/ri";
+import { FaFacebook } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -36,17 +36,17 @@ const Contact = () => {
     },
     {
       id: 1,
-      logo: <RiMessengerLine className="contact-option-icon" />,
-      title: "Messenger",
+      logo: <FaFacebook className="contact-option-icon" />,
+      title: "Facebook",
       detail: "abombidusPortfolio",
-      link: "https://m.me/abombidus",
+      link: "https://facebook.com/Mario.Abo.2025",
     },
     {
       id: 2,
       logo: <BsWhatsapp className="contact-option-icon" />,
       title: "WhatsApp",
       detail: "+123456789",
-      link: "https://api.whatsapp.com/send?phone+237695833316",
+      link: "https://wa.me/237695833316",
     },
   ];
   return (

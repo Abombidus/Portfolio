@@ -31,18 +31,18 @@ const Footer = () => {
       </ul>
 
       <div className="footer-socials">
-        <a href="https://facebook.com" className="facebook">
+        <a href="https://facebook.com/Mario.Abo.2025" className="facebook">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com" className="instagram">
+        <a href="https://instagram.com/abombidus" className="instagram">
           <FiInstagram />
         </a>
-        <a href="https://twitter" className="twitter">
+        <a href="https://twitter.com/abombidus" className="twitter">
           <IoLogoTwitter />
         </a>
       </div>
       <div className="footer-copyright">
-        <small>&copy; Abombidus Portfolio. All rights reserved.</small>
+        <small>&copy;2025 Abombidus Portfolio. All rights reserved.</small>
       </div>
     </footer>
   );

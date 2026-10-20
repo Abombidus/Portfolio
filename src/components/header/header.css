@@ -72,6 +72,9 @@ header {
   header {
     height: 100vh;
   }
+  .header_container .me {
+    width: 21rem;
+  }
   .header-socials,
   .scroll-down {
     display: none;
