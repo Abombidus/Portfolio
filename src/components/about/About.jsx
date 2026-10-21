@@ -4,8 +4,7 @@ import { useContext } from "react";
 import { AppContext } from "../../context/AppContext";
 
 const About = () => {
-  const { paragraph } = useContext(AppContext);
-  const { items } = useContext(AppContext);
+  const { paragraph, items } = useContext(AppContext);
 
   return (
     <section id="about">
